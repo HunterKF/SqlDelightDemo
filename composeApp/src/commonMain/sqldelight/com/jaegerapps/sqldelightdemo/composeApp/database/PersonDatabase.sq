@@ -1,0 +1,15 @@
+CREATE TABLE person (
+  full_name TEXT NOT NULL
+);
+
+selectAll:
+SELECT *
+FROM person;
+
+insert:
+INSERT INTO person(full_name)
+VALUES (?);
+
+insertFullPlayerObject:
+INSERT INTO person(full_name)
+VALUES ?;
